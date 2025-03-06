@@ -6,6 +6,8 @@ import moment from 'moment';
 import { useModel } from 'umi';
 import Form from './components/Form';
 
+
+
 const ChucVuPage = () => {
   const { getModel, page, limit, deleteModel, handleEdit } = useModel('danhmuc.chucvu');
 

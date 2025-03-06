@@ -1,4 +1,7 @@
-﻿export default [
+﻿import component from "@/locales/en-US/component";
+
+
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -34,6 +37,18 @@
 		path: '/random-user',
 		name: 'RandomUser',
 		component: './RandomUser',
+		icon: 'ArrowsAltOutlined',
+	},
+	{
+		path: '/trochoi',
+		name: 'Doanso',
+		component: '@/pages/trochoi',
+		icon: 'ArrowsAltOutlined',
+	},
+	{
+		path: '/oantuti',
+		name: 'OanTuTi',
+		component: '@/pages/oantuti',
 		icon: 'ArrowsAltOutlined',
 	},
 
